@@ -106,3 +106,9 @@ version.texi
 
 no_llvm_build
 
+# ignore guix stuff
+cc
+build-env.sh
+manifest.scm
+profile
+profile-1-link
