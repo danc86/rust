@@ -25,6 +25,7 @@ use cabi_mips;
 use cabi_mips64;
 use cabi_asmjs;
 use cabi_msp430;
+use cabi_riscv;
 use cabi_sparc;
 use cabi_sparc64;
 use cabi_nvptx;
@@ -962,6 +963,7 @@ impl<'a, 'tcx> FnType<'tcx> {
             "nvptx" => cabi_nvptx::compute_abi_info(self),
             "nvptx64" => cabi_nvptx64::compute_abi_info(self),
             "hexagon" => cabi_hexagon::compute_abi_info(self),
+            "riscv" => cabi_riscv::compute_abi_info(self),
             a => cx.sess().fatal(&format!("unrecognized arch \"{}\" in target specification", a))
         }
 
