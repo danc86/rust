@@ -52,7 +52,8 @@
 	url = https://github.com/rust-lang-nursery/stdsimd
 [submodule "src/tools/lld"]
 	path = src/tools/lld
-	url = https://github.com/rust-lang/lld.git
+	url = https://github.com/riscv-rust/riscv-lld.git
+	branch = rust-llvm-release-6-0-0-riscv
 [submodule "src/libbacktrace"]
 	path = src/libbacktrace
 	url = https://github.com/rust-lang-nursery/libbacktrace
