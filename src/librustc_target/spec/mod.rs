@@ -374,6 +374,7 @@ supported_targets! {
     ("x86_64-unknown-cloudabi", x86_64_unknown_cloudabi),
 
     ("riscv32i-unknown-none", riscv32i_unknown_none),
+    ("riscv32ia-unknown-none", riscv32ia_unknown_none),
 }
 
 /// Everything `rustc` knows about how to compile for a specific target.
