@@ -240,6 +240,7 @@ supported_targets! {
 
     ("riscv32i-unknown-none", riscv32i_unknown_none),
     ("riscv32ia-unknown-none", riscv32ia_unknown_none),
+    ("riscv32imac-unknown-none", riscv32imac_unknown_none),
 }
 
 /// Everything `rustc` knows about how to compile for a specific target.
